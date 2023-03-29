@@ -2,9 +2,79 @@
   margin: 0;
   padding: 0;
 }
-
-.head{
-  width: 100vw;
+.App{
+  height: 1000vh;
+  width: 99vw;
+}
+.Head{
+  width: 99vw;
   height: 15vh;
-  background-color: rgba(255, 255, 255, 0.253);
+  background-color: black;
+ 
+}
+.imgL{
+  height: 50px;
+  width: 50px;
+}
+.btnS{
+  background: none;
+  border: none;
+  width: 10%;
+  height: 90%;
+  font-size: 150%;
+  color: white;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+.btnS:hover{
+ font-size: 300%;
+}
+.btnH{
+  background: none;
+  border: none;
+  width: 10%;
+  height: 90%;
+  font-size: 150%;
+  color: white;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+.btnH:hover{
+  font-size: 300%;
+ }
+.btnA{
+  background: none;
+  border: none;
+  width: 10%;
+  height: 90%;
+  font-size: 150%;
+  color: white;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+.btnA:hover{
+  font-size: 300%;
+ }
+.btnB{
+  background: none;
+  border: none;
+  width: 10%;
+  height: 90%;
+  font-size: 150%;
+  color: white;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+.btnB:hover{
+  font-size: 300%;
+ }
+.Cbtn{
+  margin-left: 45vw;
+  height: 5vh;
+  width: 6%;
+  background-color: dodgerblue;
+  border: white 0.2px;
+  font-size: 100%;
+  color: white;
+  transition: 0.2s;
 }
